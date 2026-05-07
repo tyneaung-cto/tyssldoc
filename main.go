@@ -22,7 +22,7 @@ var version = "dev"
 var commit = "none"
 var date = "unknown"
 
-const about = "Author: Phyo Wai Yan\nGitHub: https://github.com/phyowaiyan\nProject: https://github.com/phyowaiyan/tyssldoc"
+const about = "Author: Tyne Aung\nGitHub: https://github.com/tyneaung-cto/\nProject: https://github.com/tyneaung-cto/tyssldoc"
 
 type cliError struct {
 	code int
@@ -224,11 +224,18 @@ func normalizeCLIArgs(args []string) []string {
 		}
 		return nil
 	}
-	cmdName := strings.ToLower(strings.TrimSuffix(args[0], ".exe"))
-	cmdName = strings.TrimPrefix(cmdName, "./")
-	dup := strings.ToLower(args[1])
-	if strings.HasSuffix(cmdName, "tyssldoc") && dup == "tyssldoc" {
+	cmdName := normalizeCmdToken(args[0])
+	dup := normalizeCmdToken(args[1])
+	if strings.HasSuffix(cmdName, "tyssldoc") && strings.HasSuffix(dup, "tyssldoc") {
 		return args[2:]
 	}
 	return args[1:]
+}
+
+func normalizeCmdToken(s string) string {
+	s = strings.TrimSpace(strings.ToLower(s))
+	s = strings.TrimPrefix(s, "./")
+	s = strings.TrimPrefix(s, ".\\")
+	s = strings.TrimSuffix(s, ".exe")
+	return s
 }

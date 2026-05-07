@@ -107,6 +107,6 @@ release:
 
 ## Author
 
-- Phyo Wai Yan
-- GitHub: https://github.com/phyowaiyan
+- Tyne Aung
+- GitHub: https://github.com/tyneaung-cto
 - Project: https://github.com/tyneaung-cto/tyssldoc
