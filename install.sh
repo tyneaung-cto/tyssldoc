@@ -60,7 +60,7 @@ install_binary() {
   url="https://github.com/${REPO}/releases/download/${tag}/${archive}"
 
   tmpdir="$(mktemp -d)"
-  trap 'rm -rf "$tmpdir"' EXIT
+  trap 'rm -rf "'"$tmpdir"'"' EXIT
 
   log "Installing ${BIN_NAME} ${tag} for ${os}/${arch}"
   log "Downloading ${url}"
