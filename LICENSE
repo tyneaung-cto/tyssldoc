@@ -1,0 +1,53 @@
+TYSSLDOC NON-COMMERCIAL ATTRIBUTION LICENSE v1.0
+
+Copyright (c) 2026 Ty. Aung
+
+1. Permission Grant
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software, subject to the conditions below.
+
+2. Attribution Requirement
+Any use, copy, modification, distribution, publication, or fork of the Software
+must provide clear and visible credit to the original author:
+"Original project by Ty N. Aung"
+
+Attribution must be included in at least one of the following locations:
+- project README,
+- source file headers,
+- application about/help section,
+- or accompanying documentation.
+
+3. Non-Commercial Use Only
+The Software may not be used for commercial purposes.
+Commercial purposes include, without limitation:
+- selling the Software,
+- reselling services that materially rely on the Software,
+- offering paid hosting/SaaS based on the Software,
+- including the Software in paid products or services,
+- internal business use for revenue-generating operations.
+
+4. No Resale
+You may not sell, sublicense for a fee, or otherwise monetize the Software,
+in whole or in part.
+
+5. Open Source Distribution of Derivatives
+If you distribute modified versions, forks, or derivative works, you must:
+- make complete corresponding source code publicly available at no charge,
+- keep this license text,
+- keep attribution to the original author,
+- clearly mark your changes.
+
+6. No Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+7. Termination
+Any violation of this license automatically terminates the rights granted under
+this license.
+
